@@ -1,0 +1,118 @@
+/* CSS stylesheet for lennoxbuyshouses */
+
+p{
+	font-size: 20px;
+}
+
+ul{
+	font-size: 20px;
+}
+
+h1{
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h2{
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h3{
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}	
+
+hr{
+	margin-bottom: 0px;
+}
+
+/*manipulates house picture*/
+#main_picture{
+	height: 400px;
+	width: 100%;
+	filter: opacity(50%);
+	background: #d5ebea;
+	margin: 0px 0px;
+	/*border-radius: 5px;*/
+	border: 0px
+}
+
+
+#home_header{
+	text-align: center;
+	color: black;
+	margin: 0px 0px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+#italic_letters{
+	font-style: italic;
+}
+
+#red_button{
+	border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+	color: black;
+    /*text-shadow: 1px 1px 1px #000;*/
+    border-radius: 30px;
+    background-color: yellow;
+	text-decoration: none;
+	font-weight: bold;
+}	
+
+#button_move{
+	text-align:center;
+}
+
+/*Classes*/
+.border_box{
+	float: right;
+	border: solid black 1px;
+	width: 37%;
+	background-color: mintcream;
+	padding: 1px 4px;
+	border-radius: 5px;
+	margin-right: 4px;
+	margin-top: 25px;
+}
+
+.center{
+	text-align: center;
+	width: 40%
+}
+
+.link{
+	margin-top: 0px;
+	color: black;
+	background-color: mintcream;
+	padding: 0px 0px 0px 900px
+}
+
+.div_full{
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	border: 0px;
+}
+
+.image_on_right{
+	float: right;
+	width: 20px;
+	height: 20px;
+}
+
+.shift_right{
+	margin-left: 7px;
+}
+
+.shift_h3_right{
+	padding-left: 7px;
+}
