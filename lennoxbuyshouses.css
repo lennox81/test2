@@ -1,5 +1,9 @@
 /* CSS stylesheet for lennoxbuyshouses */
 
+ol{
+	font-size: 20px;
+}
+
 p{
 	font-size: 20px;
 }
